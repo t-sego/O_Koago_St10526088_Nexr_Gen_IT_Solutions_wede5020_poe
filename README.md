@@ -1,16 +1,27 @@
 # O_Koago_St10526088_Nexr_Gen_IT_Solutions_wede5020_poe
 
-# Project Title : NextGen IT Solutions
+---
 
-## Student Information :
- Student number : 10526088
- Student Full Name : Olesego Koago
- Group : Year1 G 04
- Module : Web Development (Introduction)
- Module Code : WEDE5020
+## Project Title
+**NextGen IT Solutions**
+|---|---|
+## Student Information 
+
+| Field | Details |
+|---|---|
+| Student number |[ 10526088] |
+| Student Full Name |[ Olesego Koago] |
+| Group | Year1 G 04
+| Module name| Web Development (Introduction) |
+| Module Code | WEDE5020|
+|Lecturer| | Deogratias Phiri |
+
+---
  
 ## Project Overview 
 With the goal to offer trustworthy    IT support services, Olesego Koago created NextGen IT Solutions in South Africa, in 2026. For both individuals and small/big enterprises, the company specializes in , website building, software  solutions, computer maintence , and technical assistance. Since its founding, NextGen IT Solutions has focused on providing clients with modern technological solutions to improve business operations while building a strong reputation for customer satisfaction and high-quality service. 
+
+---
 
 ## Website Goals and Objectives 
 ## Goals
@@ -45,10 +56,14 @@ Complete 95% of projects on time and within budget
 
 
 ## Timeline and Milestone 
--Project PLanning | Requirements and planning | 04/08/2026|
-| Part 1 | website planning and structure| 14/08/2026|
-|Part 2| Design | 18/ 09/2026 
-|Part 3 | Final testing of the website | 25/09/2026|
+|---|---|
+
+|Planning & Wireframe | [05/08/2026] | complete|
+Adding external CSS style and mobile responsiveness | 16 / 09/2026 | Ongoing|
+|Part 1 | Sumit Proposal and Semantic HTML structure| 14/08/2026 | Complete |website planning and structure| 14/08/2026|
+|Part 2| Submit CSS and Responsiveness | 18/ 09/2026 | Planned | 
+Adding JavaScript and interactivity | TBC | Planned | 
+|Part 3 | Final testing of the website | TBC |Planned | 
 |Final Submission|Complete project delivery| 01/10/2026|
 
 ## Design and User Experience 
@@ -74,7 +89,9 @@ The website will be simple to use and have a neat layout. To make sure it functi
 
 # User Experience Considerations 
 The simple navigation and clean layout will help visitors quickly find information and request IT services. The blue and green color scheme builds trust, professionalism, and confidence, encouraging customers to contact the business 
-#  Sitemap  
+
+
+#  Sitemap  * paste your sitework image
 HOME 
 |
 |-----ABOUT 
@@ -90,6 +107,8 @@ HOME
 |-----Enquiry 
 |
 |-----Contact Us
+
+## Changelog 
 
 
 ## Languages and Frameworks  
