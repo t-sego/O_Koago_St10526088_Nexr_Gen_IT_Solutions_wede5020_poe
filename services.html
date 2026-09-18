@@ -1,42 +1,56 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
     <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width , initial-scale=1.0">
         <title>Services</title>
+
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@500;600;700&display=swap"
+          rel="stylesheet">
+
+        <link rel="stylesheet" href="./css/style.css">
     </head>
 
     <body>
         <header>
+
+            <img src="images/logo.png"alt="NextGen IT Solutions Logo"
+            class="logo">
             <!-- header = top section of the website.Contains the logo and navigation,links mostly -->
-             <div>
-                <!-- div = is the divider used to part sections of the html content  -->
-                 <h1>NextGen IT Solutions</h1>
-             </div>
+             
 
              <nav>
                 <ul>
                   <li>
                     <!-- li = listed item , whic is a single  item in the list...does not creat links  -->
-                     <a href="indx.html">Home</a>
+                     <a href="index.html">Home |</a>
                      <!-- href = url ,a= anchor tag meaning it represents the link in the website which can be used to navigate around your web -->
                   </li>  
                    <li>
                     <!-- li = listed item , whic is a single  item in the list...does not creat links  -->
-                     <a href="services.html">services</a>
+                     <a href="services.html">Services |</a>
                      <!-- href = url ,a= anchor tag meaning it represents the link in the website which can be used to navigate around your web -->
                   </li>  
                   <li>
                     <!-- li = listed item , whic is a single  item in the list...does not creat links  -->
-                     <a href="enquiry.html">enquiry</a>
+                     <a href="enquiry.html">Enquiry |</a>
                      <!-- href = url ,a= anchor tag meaning it represents the link in the website which can be used to navigate around your web -->
                   </li>  
                   <li>
                     <!-- li = listed item , whic is a single  item in the list...does not creat links  -->
-                     <a href="contact.html">contact</a>
+                     <a href="contact.html">Contact |</a>
                      <!-- href = url ,a= anchor tag meaning it represents the link in the website which can be used to navigate around your web -->
                   </li>  
                   <li>
                     <!-- li = listed item , whic is a single  item in the list...does not creat links  -->
-                     <a href="about_us.html">aboutUs</a>
+                     <a href="about_us.html">AboutUs |</a>
                      <!-- href = url ,a= anchor tag meaning it represents the link in the website which can be used to navigate around your web -->
                   </li>  
                 </ul>
@@ -45,17 +59,61 @@
              <!-- nav= is the navigation -->
         </header>
         <main>
-            <h1> Our Services</h1>
-            <ul>
-                <li>IT Support</li>
-                <li>Website development</li>
-                <li>Software Development</li>
-                <li>Computer Repair</li>
-                <li>Software Installation</li>
+            
+            <section id="services-intro">
 
-            </ul>
+                <h1>Our Services</h1>
+                <p>NextGen IT Solutions provides affordable and reliable IT
+                services to individuals and small businesses. Our services
+                are designed to help customers solve common technology
+                problems and make better use of their devices and software</p>
+            </section>
+            <div class="services-grid">
+                <section id="computer-support" class="service-card">
+            <h2>Computer Support and laptop maintenance </h2>
+            <p>We help customers identify and solve common computer problems
+                such as slow performance, software errors and basic system
+                issues.</p>
+           </section>
+           <section id="software-installation" class="service-card">
+            <h2>Software Installation and Troubleshooting</h2>
+            <p>We assist customers with installing and setting up software
+                on their computers. We can also provide basic assistance with
+                software configuration and updates.</p>
+           </section>
+           <section id="website-development" class="service-card">
+            <h2> Website design and  Development</h2>
+            <p>We create simple websites for individuals and small
+                businesses that need an online presence. Our websites focus
+                on clear information, simple navigation and user-friendly
+                design.</p>
+           </section>
+           <section id="techical-assistance" class="service-card">
+            <h2>IT techical support</h2>
+            <p>We provide basic technical assistance to customers who need
+                help understanding or setting up their computers, software
+                and other technology.</p>
+           </section>
 
+           <section id="data-backup" class="service-card">
+            <h2>Data Backup and Recovery</h2>
+            <p>We assist customers with backing up important files and
+            provide support when data needs to be recovered.</p>
+           </section>
+            </div>
+          
+           <section id="service-enquiry">
+            <h2>Need Help?</h2>
+            <p>If you need one of our services or you are unsure which
+                service is right for you, send us an enquiry and tell us
+                about the problem you are experiencing.</p>
+
+                <a href="enquiry.html" class="button">Make an Enquiry</a>
+           </section>
 
         </main>
+        <footer>
+            <p>&copy;2026 NextGen IT Solutions.All rights reserved.</p>
+        </footer>
     </body>
 </html>
