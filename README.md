@@ -61,7 +61,7 @@ Complete 95% of projects on time and within budget
 |Planning & Wireframe | [05/08/2026] | complete|
 Adding external CSS style and mobile responsiveness | 16 / 09/2026 | Ongoing|
 |Part 1 | Sumit Proposal and Semantic HTML structure| 14/08/2026 | Complete |website planning and structure| 14/08/2026|
-|Part 2| Submit CSS and Responsiveness | 18/ 09/2026 | Planned | 
+|Part 2| Submit CSS and Responsiveness | 18/ 09/2026 | Complete | Styling the website|
 Adding JavaScript and interactivity | TBC | Planned | 
 |Part 3 | Final testing of the website | TBC |Planned | 
 |Final Submission|Complete project delivery| 01/10/2026|
@@ -69,13 +69,17 @@ Adding JavaScript and interactivity | TBC | Planned |
 ## Design and User Experience 
 
 # Color Scheme 
-
+Updated from :
 Primary Color: Navy Blue (#1E3A8A)– Builds trust and confidence. 
 
 Secondary Color: Emerald Green (#10B981) - Represents innovative and growth  
 
 Background: White (#FFFFFF) - Keeps the design clean and user-friendly 
 
+To:
+Blue(#0066cc)
+White(#ffffff)
+Grey(#f4f4f4)
  
 
 # Typography  
@@ -109,8 +113,14 @@ HOME
 |-----Contact Us
 
 ## Changelog 
-
-
+## Part 2 Updates - September 2026
+Here are the following changes made to the website NextGen IT Solutions:
+Added an external CSS File
+- Update the navigation to use the same order on all pages : Home , About Us ,Service,  Contact and Enquiry
+- Added a CSS file and a linked it to all the website pages
+- Added colors , spacing , typography and page styling
+- Colors  that were added : blue(#0066cc), dark blue(#004c99) , white(#ffffff), dark grey(#333333), light Grey(#f4f4f4), Border Grey(#dddddd)
+- Tested the website on desktop , table and mobile screen
 ## Languages and Frameworks  
 
 HTML , CSS , and JAVASCRIPT 
@@ -126,3 +136,8 @@ Website Development - R5000(once-off)
 Ongoing Maintenance - R500/month(R6000/year) 
 
 Total First- Year Cost - R5500/R11000 
+
+
+## Referencing 
+- Deogratias,P., 2026.Building Your Website's HTML: A Beginner's Guide, WEDE5020 Web Development.Lecture Slides, IIE
+- Deogratias,P.2026. Styling Your Website with CSS: A Beginner's Guide(No CSS Variables), WEDE5020 Web Development. Lecture Slides,IIE
