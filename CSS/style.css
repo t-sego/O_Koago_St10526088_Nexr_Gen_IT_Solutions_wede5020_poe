@@ -1,26 +1,31 @@
-*{
-    margin:0px;
-    padding:0px;
+* {
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 
 }
-body{
-    font-family:"Open Sans",Arial,sans-serif;
+
+body {
+    font-family: "Open Sans", Arial, sans-serif;
     font-size: 1 rem;
     line-height: 1.6;
-    color:#333333;
+    color: #333333;
     background-color: #ffffff;
 }
-img{
+
+img {
     max-width: 100%;
     height: auto;
 }
-.logo{
+
+.logo {
     width: 150px;
-    height:auto;
+    height: auto;
 }
-header{
-     display: flex; /*Put the items inside the header into a flexible layout.  */
+
+header {
+    display: flex;
+    /*Put the items inside the header into a flexible layout.  */
     justify-content: space-between;
     align-items: center;
 
@@ -29,41 +34,61 @@ header{
 }
 
 
-nav ul{
-    list-style:none;
-    display:flex;
-    gap: 2rem; /*creates space between each menu item.*/
-    
-    
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    /*creates space between each menu item.*/
+
+
 }
-nav a{
+
+.container {
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+nav a {
     text-decoration: none;
     color: #333333;
     font-weight: bold;
 }
-nav a:hover{
-color: #0066cc;
+
+nav a:hover {
+    color: #0066cc;
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
 }
-main section{
-    padding:3rem 5%;
+
+main section {
+    padding: 3rem 5%;
 }
-h1{  /*Styles the main page headings*/
+
+h1 {
+    /*Styles the main page headings*/
     font-size: 2.5rem;
-    margin-bottom:1rem;
+    margin-bottom: 1rem;
 }
-h2{ /* sytles the section headings*/
+
+h2 {
+    /* sytles the section headings*/
     font-size: 1.8rem;
     margin-bottom: 1rem;
 }
-p{
+
+p {
     margin-bottom: 1rem;
 }
-.button{ /*make links look like buttons*/
-    display:inline-block;
+
+.button {
+    /*make links look like buttons*/
+    display: inline-block;
     background-color: #0066cc;
     color: #ffffff;
     padding: 0.8rem 1.5rem;
@@ -74,36 +99,80 @@ p{
 
     border-radius: 5px;
 }
-.button:hover{ /* changes butttons when the user moves the mouse over tehm*/
-background-color: #004c99;
-color: #ffffff;
+
+.button:hover {
+    /* changes butttons when the user moves the mouse over tehm*/
+    background-color: #004c99;
+    color: #ffffff;
 }
-#home-intro{
-   background-image:linear-gradient(
-            rgba(0, 0, 0, 0.55),
-            rgba(0, 0, 0, 0.55)
-        ),url("../images/technology.jpg") ; 
-   background-size: cover;
-   background-position: center;
-   background-repeat: no-repeat;
-   min-height:60vh;
-   color: #ffffff;
-   display:flex;
-   flex-direction: colum;
-   justify-content: center;
-   
+
+#home-intro {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.55),
+            rgba(0, 0, 0, 0.55)), url("../images/technology.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 60vh;
+    color: #ffffff;
+    display: flex;
+    flex-direction: colum;
+    justify-content: center;
+
 }
-#home-services{
+
+#home-services {
     background-color: #f4f4f4;
 }
-#why-choose-us{
+
+#why-choose-us {
     background-color: #ffffff;
 }
-#home-enquiry{
+
+#home-enquiry {
     background-color: #f4f4f4;
     text-align: center;
+
 }
-footer{
+
+/* --- Circular icon buttons (social links) --- */
+.social-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.icon-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #dfe2ec;
+    color: #5f6373;
+    font-size: 1rem;
+}
+
+.icon-btn:hover,
+.icon-btn:focus {
+    color: #4d5ea3;
+    border-color: #4d5ea3;
+    text-decoration: none;
+}
+
+.site-footer .icon-btn {
+    border-color: #4a4d5c;
+    color: #d7d9e4;
+}
+
+.site-footer .icon-btn:hover {
+    color: #e8a33d;
+    border-color: #e8a33d;
+}
+
+
+/* footer{
     background-color: #222222;
     color: #ffffff;
     text-align: center;
@@ -111,33 +180,91 @@ footer{
 }
 footer p{
     margin-bottom: 0;
+} */
+
+/* ---------------------------------------------------------------------
+   5. FOOTER
+   --------------------------------------------------------------------- */
+.site-footer {
+    background-color: #232530;
+    color: #d7d9e4;
+    padding-top: 40px;
+    padding-bottom: 24px;
 }
-   
-.services-grid{
+
+.footer-inner {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.site-footer .logo {
+    color: #ffffff;
+    width: auto;
+}
+
+.site-footer .icon-list li {
+    color: #ffffff;
+}
+
+.site-footer .icon-list i {
+    color: #ffffff;
+
+}
+.site-footer a {
+    color: #d7d9e4;
+}
+
+.site-footer a:hover {
+    color: #e8a33d;
+}
+
+.footer-col h4,
+.footer-title {
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 1rem;
+    margin-bottom: 8px;
+}
+
+.copyright {
+    border-top: 1px solid #3b3e4c;
+    padding-top: 16px;
+    text-align: center;
+    font-size: 0.85rem;
+    color: #9c9fb2;
+}
+
+.services-grid {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
-    gap:2rem;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
 
     padding: 3rem 5%
 }
-.service-card{
+
+.service-card {
     background-color: #ffffff;
     padding: 2rem;
 
-    border : 1px solid #dddddd;
+    border: 1px solid #dddddd;
     border-radius: 8px;
 
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 
-    transition:0.3s ease;
+    transition: 0.3s ease;
 }
-.service-card:hover{
-    transform:translateY(-5px);
 
-    box-shadow: 0 5px 15px rgba(0,0,0,0.15)
+.service-card:hover {
+    transform: translateY(-5px);
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15)
 }
-#about-us{
-    background-image:  url("../images/girl_fixing.jpg");
+
+#about-us {
+    background-image: url("../images/girl_fixing.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -150,134 +277,180 @@ footer p{
     flex-direction: column;
     justify-content: center;
 }
-#mission{
-margin: 2rem 5%;
 
-background-color: #ffffff;
+#mission {
+    margin: 2rem 5%;
 
-border:1px solid #dddddd;
-border-radius: 8px;
+    background-color: #ffffff;
 
-box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
-#vision{
-margin: 2rem 5%;
 
-background-color: #ffffff;
+#vision {
+    margin: 2rem 5%;
 
-border:1px solid #dddddd;
-border-radius: 8px;
+    background-color: #ffffff;
 
-box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
-#values{
+
+#values {
     background-color: #f4f4f4;
 
 }
-#values ul{
+
+#values ul {
     margin-left: 2rem;
 }
-#values li{
+
+#values li {
     margin-bottom: 0.5rem;
 }
-.social-media-links{
+
+/* --- Icon-prefixed info list (contact details, opening hours) --- */
+.icon-list {
+    list-style: none;
+    margin-bottom: 16px;
+}
+
+.icon-list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 8px;
+    color: #5f6373;
+}
+
+.icon-list i {
+    color: #4d5ea3;
+    width: 16px;
+    text-align: center;
+    margin-top: 4px;
+    flex: none;
+}
+
+.social-media-links {
     text-align: center;
     padding: 2rem 5%;
 }
-.social-media-links p{
+
+.social-media-links p {
     font-weight: bold;
     margin-bottom: 1rem;
 }
-.socials{
-    display:flex;
+
+.socials {
+    display: flex;
     justify-content: center;
-    gap:1.5rem;
+    gap: 1.5rem;
 }
-.socials a{
-    font-size :  2rem;
-    color:#333333;
+
+.socials a {
+    font-size: 2rem;
+    color: #333333;
     text-decoration: none;
     transition: 0.3s ease;
 }
-.socials a:hover{
+
+.socials a:hover {
     color: #0066cc;
-    transform:translateY(-5px);
+    transform: translateY(-5px);
 }
-.socials a:focus{
+
+.socials a:focus {
     outline: 2px solid #0066cc;
-    outline-offset:4px;
+    outline-offset: 4px;
 }
-.socials a:active{
-    transform:scale(0.9) ;
+
+.socials a:active {
+    transform: scale(0.9);
 }
-#enquiry-intro{
-    text-align:center;
+
+#enquiry-intro {
+    text-align: center;
     background-color: #f4f4f4;
 }
-#enquiry-form{
-    max-width: 700px;  /* The form can become smaller than 700px, but it should not become wider than 700px.*/
-    margin:2rem auto;
+
+#enquiry-form {
+    max-width: 700px;
+    /* The form can become smaller than 700px, but it should not become wider than 700px.*/
+    margin: 2rem auto;
 }
-#enquiry-form form{
+
+#enquiry-form form {
     background-color: #ffffff;
-    padding : 2rem;
+    padding: 2rem;
 
     border: 1px solid #dddddd;
-    border-radius:8px ;
+    border-radius: 8px;
 
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
-#enquiry-form lable{
+
+#enquiry-form lable {
     display: block;
     font-weight: bold;
     margin-top: 1 rem;
     margin-bottom: 0.5rem;
 }
-#enquiry-form input{
-    width:100%;
+
+#enquiry-form input {
+    width: 100%;
 
     padding: 0.8rem;
-    border:1px solid #cccccc;
-    border-radius:5px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
 
-    font-family:"Opens Sans", Arial, sans-serif;
+    font-family: "Opens Sans", Arial, sans-serif;
     font-size: 1 rem;
 }
-#enquiry-form select{
-width:100%;
+
+#enquiry-form select {
+    width: 100%;
 
     padding: 0.8rem;
-    border:1px solid #cccccc;
-    border-radius:5px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
 
-    font-family: "Opens Sans",Arial, sans-serif;
+    font-family: "Opens Sans", Arial, sans-serif;
     font-size: 1 rem;
 }
-#enquiry-form textarea{
-width:100%;
+
+#enquiry-form textarea {
+    width: 100%;
 
     padding: 0.8rem;
-    border:1px solid #cccccc;
-    border-radius:5px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
 
-    font-family: "Opens Sans",Arial, Helvetica, sans-serif;
+    font-family: "Opens Sans", Arial, Helvetica, sans-serif;
     font-size: 1 rem;
 }
-#enquiry-form input:focus{
-outline: 2px solid #1E3A8A;
+
+#enquiry-form input:focus {
+    outline: 2px solid #1E3A8A;
     border-color: #1E3A8A;
 }
-#enquiry-form select:focus{
-outline: 2px solid #1E3A8A;
+
+#enquiry-form select:focus {
+    outline: 2px solid #1E3A8A;
     border-color: #1E3A8A;
 }
-#enquiry-form textarea:focus{
-outline: 2px solid #1E3A8A;
+
+#enquiry-form textarea:focus {
+    outline: 2px solid #1E3A8A;
     border-color: #1E3A8A;
 }
-#enquiry-form button{
+
+#enquiry-form button {
     background-color: #1E3A8A;
-     color: #FFFFFF;
+    color: #FFFFFF;
 
     border: none;
     border-radius: 5px;
@@ -292,51 +465,60 @@ outline: 2px solid #1E3A8A;
 
     transition: 0.3s ease;
 }
+
 /* Changes the submit button when the mouse is over it */
 #enquiry-form button:hover {
     background-color: #10B981;
 }
+
 /* Slightly changes the button while it is being clicked */
 #enquiry-form button:active {
     transform: scale(0.97);
 }
-#contact-intro{
+
+#contact-intro {
     text-align: center;
     background-color: #f4f4f4;
 }
-#contact-details{
+
+#contact-details {
     margine: 2rem 5%;
 
     background-color: #ffffff;
 
-    border:1px solid #dddddd;
+    border: 1px solid #dddddd;
 
-    border-radius:8px ;
+    border-radius: 8px;
 
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
-#contact-enquiry{
+
+#contact-enquiry {
     text-align: center;
     background-color: #f4f4f4;
 }
 
 
 
-@media(max-width :768px){ /*Changes the website layout for tablets and smaller screens */ 
-    header{
-flex-direction: column;
+@media(max-width :768px) {
+
+    /*Changes the website layout for tablets and smaller screens */
+    header {
+        flex-direction: column;
     }
-    nav ul{
+
+    nav ul {
         flex-direction: column;
         align-items: center;
         gap: 0.5rem;
         margin-top: 1rem;
     }
-    .services-grid{
+
+    .services-grid {
         grid-template-columns: 1fr;
     }
 
-        /* Makes the main heading smaller on phones and tablets */
+    /* Makes the main heading smaller on phones and tablets */
     h1 {
         font-size: 2rem;
     }
@@ -373,6 +555,7 @@ flex-direction: column;
         padding: 0.7rem 1.2rem;
     }
 }
+
 /* Makes additional adjustments for small mobile phones */
 @media (max-width: 480px) {
 
