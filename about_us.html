@@ -1,130 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-      <meta charset="UTF-8">
 
-      <!-- MAKES THE WEB INTERACTIVE  -->
-       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>NextGen IT Solutions | About Us </title>
-           <link rel="preconnect" href="https://fonts.googleapis.com">
+<head>
+   <meta charset="UTF-8">
 
-    <link rel="preconnect"
-          href="https://fonts.gstatic.com"
-          crossorigin>
+   <!-- MAKES THE WEB INTERACTIVE  -->
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>NextGen IT Solutions | About Us </title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
 
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@500;600;700&display=swap"
-          rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-        <link rel="stylesheet" href="./css/style.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    </head>
+   <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@500;600;700&display=swap"
+      rel="stylesheet">
 
-    <body>
-      <!-- header contains bus logo and nav -->
-        <header>
+   <link rel="stylesheet" href="./css/style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
 
-         <img src="images/logo.png"alt="NextGen IT Solution logo"
-         class="logo">
-            <!-- header = top section of the website.Contains the logo and navigation,links mostly -->
-             <div>
-                <!-- div = is the divider used to part sections of the html content  -->
-                 <h1>NextGen IT Solutions</h1>
-             </div>
+<body>
 
-             <nav>
-                <ul>
-                  <li>
-                    <!-- li = listed item , whic is a single  item in the list...does not creat links  -->
-                     <a href="index.html">Home |</a>
-                     <!-- href = url ,a= anchor tag meaning it represents the link in the website which can be used to navigate around your web -->
-                  </li>  
-                   <li>
-                    <!-- li = listed item , whic is a single  item in the list...does not creat links  -->
-                     <a href="services.html">Services |</a>
-                     <!-- href = url ,a= anchor tag meaning it represents the link in the website which can be used to navigate around your web -->
-                  </li>  
-                   
-                  <li>
-                    <!-- li = listed item , whic is a single  item in the list...does not creat links  -->
-                     <a href="enquiry.html">Enquiry |</a>
-                     <!-- href = url ,a= anchor tag meaning it represents the link in the website which can be used to navigate around your web -->
-                  </li>  
-                  <li>
-                    <!-- li = listed item , whic is a single  item in the list...does not creat links  -->
-                     <a href="contact.html">Contact |</a>
-                     <!-- href = url ,a= anchor tag meaning it represents the link in the website which can be used to navigate around your web -->
-                  </li>  
-                  <li>
-                    <!-- li = listed item , whic is a single  item in the list...does not creat links  -->
-                     <a href="about_us.html">AboutUs |</a>
-                     <!-- href = url ,a= anchor tag meaning it represents the link in the website which can be used to navigate around your web -->
-                  </li>  
-                </ul>
-                <!-- ul = unorder list, no direct order to it  -->
-             </nav>
-             <!-- nav= is the navigation -->
-        </header>
-        
-        <main>
+   <header class="site-header">
+      <div class="container header-inner">
+         <a href="index.html" class="logo">
+            <img src="images/logo.png" alt="NextGen IT Solutions logo">
+         </a>
 
-         <section id="about-us">
+         <!-- CSS-only mobile menu: a hidden checkbox + a clickable label.
+           No JavaScript involved — see the ".nav-toggle-input" rules
+           in css/style.css. -->
+         <input type="checkbox" id="nav-toggle" class="nav-toggle-input">
+         <label for="nav-toggle" class="nav-toggle" aria-label="Toggle menu">
+            <i class="fa fa-bars icon-open" aria-hidden="true"></i>
+            <i class="fa fa-times icon-close" aria-hidden="true"></i>
+         </label>
 
-            <h1>About Us</h1>
-          <p>  We understand that technology can sometimes be difficult to
-                understand. Our goal is to provide simple solutions and
-                explain technical problems in a way that our customers can
-                easily understand.</p>
-         
-
-         </section>
-        
-
-         <section id="mission">
-            <h2>Our Mission</h2>
-
-             <p>Our mission is to provide reliable, affordable and
-                customer-friendly IT services that help our clients solve
-                technology problems and use technology more effectively.</p>
-
-         </section>
-         <section id="vision">
-            <h2>Our Vision</h2>
-
-            <p> Our vision is to grow NextGen IT Solutions into a trusted
-                technology service provider that supports individuals and
-                small businesses with their changing technology needs.</p>
-         </section>
-
-         <section id="values">
-
-            <h2>Our Values</h2>
+         <nav class="main-nav" aria-label="Main navigation">
             <ul>
-               <li>Reliable and friendly customer service</li>
-               <li>Affordable IT solutions</li>
-               <li>Clear communication with our customers</li>
-               <li>Continuous Learning and improvement</li>
+               <li><a href="index.html">Home |</a></li>
+               <li><a href="about_us.html" aria-current="page">About Us |</a></li>
+               <li><a href="services.html">Services |</a></li>
+               <li><a href="enquiry.html">Enquiries |</a></li>
+               <li><a href="contact.html">Contact Us |</a></li>
             </ul>
+         </nav>
+      </div>
+   </header>
 
-         </section>
+   <main>
 
+      <section id="about-us">
 
-
-         <div class="social-media-links">
-
-               <p>You can find us :</p>
-               <div class="socials">
-                  <a href="#"><i class="fa fa-instagram"></i></a>
-                  <a href="#"><i class="fa fa-facebook"></i></a>
-                  <a href="#"><i class="fa fa-twitter"></i></a>
-                  <a href="#"><i class="fa fa-whatsapp"></i></a>
-                   <a href="https://www.youtube.com/watch?v=wGA27zJEnaU"><i class="fa fa-youtube"></i></a>
-               </div>
-            </div>
+         <h1>About Us</h1>
+         <p> We understand that technology can sometimes be difficult to
+            understand. Our goal is to provide simple solutions and
+            explain technical problems in a way that our customers can
+            easily understand.</p>
 
 
-        </main>
-        <footer>
-         <p>&copy; 2026 NextGen It Solutions. All rigths reserved</p>
-        </footer>
-    </body>
+      </section>
+
+
+      <section id="mission">
+         <h2>Our Mission</h2>
+
+         <p>Our mission is to provide reliable, affordable and
+            customer-friendly IT services that help our clients solve
+            technology problems and use technology more effectively.</p>
+
+      </section>
+      <section id="vision">
+         <h2>Our Vision</h2>
+
+         <p> Our vision is to grow NextGen IT Solutions into a trusted
+            technology service provider that supports individuals and
+            small businesses with their changing technology needs.</p>
+      </section>
+
+      <section id="values">
+
+         <h2>Our Values</h2>
+         <ul>
+            <li>Reliable and friendly customer service</li>
+            <li>Affordable IT solutions</li>
+            <li>Clear communication with our customers</li>
+            <li>Continuous Learning and improvement</li>
+         </ul>
+
+      </section>
+
+
+
+      <div class="social-media-links">
+
+         <p>You can find us :</p>
+         <div class="socials">
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-whatsapp"></i></a>
+            <a href="https://www.youtube.com/watch?v=wGA27zJEnaU"><i class="fa fa-youtube"></i></a>
+         </div>
+      </div>
+
+
+   </main>
+   <footer class="site-footer">
+      <div class="container footer-inner">
+         <div class="footer-col">
+            <p class="logo">NextGen IT Solutions</p>
+            <ul class="icon-list">
+               <li><i class="fa fa-phone" aria-hidden="true"></i><a href="tel:+27444444444">+27 44 444 4444</a>
+               </li>
+               <li><i class="fa fa-envelope-o" aria-hidden="true"></i><a
+                     href="mailto:dummy@email.com">dummy@email.com</a></li>
+               <li><i class="fa fa-map-marker" aria-hidden="true"></i><span>Rosebank Mall, Rosebank,
+                     Johannesburg</span></li>
+            </ul>
+         </div>
+         <div class="footer-col">
+            <p class="footer-title">Follow</p>
+            <ul class="social-list">
+               <li><a class="icon-btn" href="#" aria-label="Facebook"><i class="fa fa-facebook"
+                        aria-hidden="true"></i></a></li>
+               <li><a class="icon-btn" href="#" aria-label="Instagram"><i class="fa fa-instagram"
+                        aria-hidden="true"></i></a></li>
+               <li><a class="icon-btn" href="#" aria-label="LinkedIn"><i class="fa fa-linkedin"
+                        aria-hidden="true"></i></a></li>
+               <li><a class="icon-btn" href="#" aria-label="Twitter"><i class="fa fa-twitter"
+                        aria-hidden="true"></i></a></li>
+               <li><a class="icon-btn" href="#" aria-label="YouTube"><i class="fa fa-youtube"
+                        aria-hidden="true"></i></a></li>
+               <li><a class="icon-btn" href="#" aria-label="WhatsApp"><i class="fa fa-whatsapp"
+                        aria-hidden="true"></i></a></li>
+            </ul>
+         </div>
+      </div>
+      <p class="copyright">&copy; <span id="year">2026</span> NextGen IT Solutions. All rigths reserved</p>
+   </footer>
+
+   <script src="js/script.js"></script>
+</body>
+
 </html>

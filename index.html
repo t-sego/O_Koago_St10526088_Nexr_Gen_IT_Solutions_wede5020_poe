@@ -19,42 +19,35 @@
 </head>
 
 <body>
-    <!-- A header that contains the busniess logo and navigation menu -->
-    <header>
-        <img src="images/logo.png" alt="NextGen IT Solutions logo" class="logo">
 
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href="index.html" class="logo">
+                <img src="images/logo.png" alt="NextGen IT Solutions logo">
+            </a>
 
-        <nav>
-            <ul>
-                <li>
+            <!-- CSS-only mobile menu: a hidden checkbox + a clickable label.
+           No JavaScript involved — see the ".nav-toggle-input" rules
+           in css/style.css. -->
+            <input type="checkbox" id="nav-toggle" class="nav-toggle-input">
+            <label for="nav-toggle" class="nav-toggle" aria-label="Toggle menu">
+                <i class="fa fa-bars icon-open" aria-hidden="true"></i>
+                <i class="fa fa-times icon-close" aria-hidden="true"></i>
+            </label>
 
-                    <a href="index.html">Home | </a>
-
-                </li>
-                <li>
-                    <!-- li = listed item , whic is a single  item in the list...does not creat links  -->
-                    <a href="services.html">Services | </a>
-                    <!-- href = url ,a= anchor tag meaning it represents the link in the website which can be used to navigate around your web -->
-                </li>
-                <li>
-                    <!-- li = listed item , whic is a single  item in the list...does not creat links  -->
-                    <a href="enquiry.html">Enquiry | </a>
-                    <!-- href = url ,a= anchor tag meaning it represents the link in the website which can be used to navigate around your web -->
-                </li>
-                <li>
-                    <!-- li = listed item , whic is a single  item in the list...does not creat links  -->
-                    <a href="contact.html">Contact | </a>
-                    <!-- href = url ,a= anchor tag meaning it represents the link in the website which can be used to navigate around your web -->
-                </li>
-                <li>
-                    <!-- li = listed item , whic is a single  item in the list...does not creat links  -->
-                    <a href="about_us.html">AboutUs |</a>
-                    <!-- href = url ,a= anchor tag meaning it represents the link in the website which can be used to navigate around your web -->
-                </li>
-            </ul>
-        </nav>
-
+            <nav class="main-nav" aria-label="Main navigation">
+                <ul>
+                    <li><a href="index.html" aria-current="page">Home |</a></li>
+                    <li><a href="about_us.html">About Us |</a></li>
+                    <li><a href="services.html">Services |</a></li>
+                    <li><a href="enquiry.html">Enquiries |</a></li>
+                    <li><a href="contact.html">Contact Us |</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
+
+
 
     <main>
         <!-- This is the introduces the clients to the business -->
