@@ -15,33 +15,105 @@ body {
 
 img {
     max-width: 100%;
-    height: auto;
+    display: block;
+}
+
+/* ---------------------------------------------------------------------
+   4. HEADER & NAVIGATION (CSS-only mobile menu)
+   --------------------------------------------------------------------- */
+.site-header {
+  border-bottom: 1px solid #dfe2ec;
+  background-color: #ffffff;
+  z-index: 100;
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 
 .logo {
-    width: 150px;
-    height: auto;
+  font-weight: 700;
+  font-size: 1.4rem;
+  color: #232530;
 }
 
-header {
-    display: flex;
-    /*Put the items inside the header into a flexible layout.  */
-    justify-content: space-between;
-    align-items: center;
+.logo img {
+   width: 70px;
+height: auto;
+}
 
-    padding: 5px;
-    background-color: #ffffff;
+.logo:hover {
+  text-decoration: none;
+  color: #232530;
+}
+
+.main-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 16px;
+}
+
+.main-nav a {
+  color: #232530;
+  font-weight: 600;
+  padding: 6px 4px;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+}
+
+.main-nav a:hover,
+.main-nav a:focus,
+.main-nav a[aria-current="page"] {
+  color: #4d5ea3;
+  text-decoration: none;
+}
+
+/* The checkbox itself is never visible — it only exists to hold the
+   open/closed STATE. CSS reads that state with ":checked" further
+   down. No JavaScript is involved anywhere in this menu. */
+.nav-toggle-input {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* The <label> is what the user actually sees and clicks — clicking a
+   <label> toggles the checkbox it's connected to via a matching
+   for="..."/id="..." pair. */
+.nav-toggle {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #dfe2ec;
+  border-radius: 8px;
+  color: #232530;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.nav-toggle .icon-close {
+  display: none;
+}
+
+/* The "~" is the general sibling selector: "any later sibling" — it
+   reaches from the checkbox across to the label and nav next to it. */
+.nav-toggle-input:checked ~ .nav-toggle .icon-open {
+  display: none;
+}
+
+.nav-toggle-input:checked ~ .nav-toggle .icon-close {
+  display: inline-block;
 }
 
 
-nav ul {
-    list-style: none;
-    display: flex;
-    gap: 2rem;
-    /*creates space between each menu item.*/
 
 
-}
 
 .container {
     max-width: 1100px;
@@ -51,15 +123,6 @@ nav ul {
     padding-right: 16px;
 }
 
-nav a {
-    text-decoration: none;
-    color: #333333;
-    font-weight: bold;
-}
-
-nav a:hover {
-    color: #0066cc;
-}
 
 * {
     margin: 0;
