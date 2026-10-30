@@ -564,95 +564,161 @@ footer p{
 
 
 
-@media(max-width :768px) {
+ 
 
-    /*Changes the website layout for tablets and smaller screens */
-    header {
-        flex-direction: column;
+
+
+
+
+/* ==================================
+   MOBILE RESPONSIVE DESIGN
+   NextGen IT Solutions
+   ================================== */
+
+/* Make images fit smaller screens */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Prevent elements from becoming too wide */
+* {
+    box-sizing: border-box;
+}
+
+/* Tablets and smaller screens */
+@media (max-width: 768px) {
+
+    /* Navigation */
+    nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        padding: 10px;
     }
 
+    nav ul li {
+        margin: 5px;
+    }
+
+    /* Services cards */
+    .services-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 15px;
+    }
+
+    /* Gallery */
+    .gallery-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    /* Search bar */
+    .service-search {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    /* Forms */
+    #contact-form-section,
+    #enquiry {
+        width: 90%;
+        margin: 20px auto;
+        padding: 20px;
+    }
+}
+
+/* Mobile phones */
+@media (max-width: 480px) {
+
+    /* Navigation links */
     nav ul {
         flex-direction: column;
         align-items: center;
-        gap: 0.5rem;
-        margin-top: 1rem;
     }
 
+    /* One service card per row */
     .services-grid {
         grid-template-columns: 1fr;
     }
 
-    /* Makes the main heading smaller on phones and tablets */
+    /* One gallery image per row */
+    .gallery-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* Headings */
     h1 {
-        font-size: 2rem;
+        font-size: 28px;
     }
 
-    /* Makes section headings smaller on phones and tablets */
     h2 {
-        font-size: 1.5rem;
+        font-size: 23px;
     }
 
-    /* Reduces section spacing on smaller screens */
-    main section {
-        padding: 2rem 5%;
-    }
-
-    /* Makes the home background section suitable for smaller screens */
-    #home-intro {
-        min-height: 50vh;
-        text-align: center;
-    }
-
-    /* Makes the About Us background section suitable for smaller screens */
-    #about-us {
-        min-height: 40vh;
-        text-align: center;
-    }
-
-    /* Gives the enquiry form more space on smaller screens */
-    #enquiry-form {
-        width: 90%;
-    }
-
-    /* Makes buttons easier to use on smaller screens */
-    .button {
-        padding: 0.7rem 1.2rem;
-    }
-}
-
-/* Makes additional adjustments for small mobile phones */
-@media (max-width: 480px) {
-
-    /* Makes the logo smaller on phones */
-    .logo {
-        width: 120px;
-    }
-
-    /* Makes the main heading fit smaller screens */
-    h1 {
-        font-size: 1.8rem;
-    }
-
-    /* Makes section headings fit smaller screens */
-    h2 {
-        font-size: 1.4rem;
-    }
-
-    /* Reduces spacing between navigation links */
-    nav ul {
-        gap: 0.3rem;
-    }
-
-    /* Reduces padding inside service cards */
-    .service-card {
-        padding: 1.5rem;
-    }
-
-    /* Makes the enquiry form use most of the phone screen */
-    #enquiry-form {
+    /* Search bar */
+    .service-search {
         width: 95%;
+        padding: 15px;
+    }
+
+    /* Forms */
+    #contact-form-section,
+    #enquiry {
+        width: 95%;
+        padding: 15px;
+    }
+
+    /* Buttons */
+    button {
+        max-width: 100%;
+    }
+
+    /* Interactive map */
+    #location-map iframe {
+        width: 100%;
+        height: 280px;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* FAQ Accordion */
 
