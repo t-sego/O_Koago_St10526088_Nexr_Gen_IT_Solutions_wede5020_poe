@@ -145,7 +145,7 @@ NextGen IT Solutions website:
 ### Forms
 The website contains two forms:
 1. Enquiry Form - allows customers to request IT services.
-2. Contact Form - allows visitors to send general questions.
+2. Contact Form - allows visitors to send general questions,
 
 Both forms use JavaScript validation.
 
