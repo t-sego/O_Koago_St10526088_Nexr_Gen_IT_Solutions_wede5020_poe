@@ -63,7 +63,7 @@ Adding external CSS style and mobile responsiveness | 16 / 09/2026 | Ongoing|
 |Part 1 | Sumit Proposal and Semantic HTML structure| 14/08/2026 | Complete |website planning and structure| 14/08/2026|
 |Part 2| Submit CSS and Responsiveness | 18/ 09/2026 | Complete | Styling the website|
 Adding JavaScript and interactivity | TBC | Planned | 
-|Part 3 | Final testing of the website | TBC |Planned | 
+|Part 3 | Final testing of the website | TBC |02/11/2026 | 
 |Final Submission|Complete project delivery| 01/10/2026|
 
 ## Design and User Experience 
@@ -121,6 +121,40 @@ Added an external CSS File
 - Added colors , spacing , typography and page styling
 - Colors  that were added : blue(#0066cc), dark blue(#004c99) , white(#ffffff), dark grey(#333333), light Grey(#f4f4f4), Border Grey(#dddddd)
 - Tested the website on desktop , table and mobile screen
+
+
+## Part 3 - Website Improvements
+
+The following features were added to improve the
+NextGen IT Solutions website:
+
+### JavaScript Features
+- Automatic copyright year
+- Live IT service search
+- Frequently Asked Questions (FAQ) accordion
+- Interactive image gallery lightbox
+- Enquiry form validation
+- Service-specific enquiry responses
+- Contact form validation
+- Personalised contact form responses
+
+### Other Improvements
+- Interactive Google Maps location map
+
+
+### Forms
+The website contains two forms:
+1. Enquiry Form - allows customers to request IT services.
+2. Contact Form - allows visitors to send general questions.
+
+Both forms use JavaScript validation.
+
+Email submission using mailto is still being tested.
+Form validation and confirmation messages do not
+mean that a message has been delivered.
+
+
+
 ## Languages and Frameworks  
 
 HTML , CSS , and JAVASCRIPT 
