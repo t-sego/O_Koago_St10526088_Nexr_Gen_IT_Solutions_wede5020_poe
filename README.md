@@ -150,8 +150,7 @@ The website contains two forms:
 Both forms use JavaScript validation.
 
 Email submission using mailto is still being tested.
-Form validation and confirmation messages do not
-mean that a message has been delivered.
+
 
 
 
@@ -175,3 +174,4 @@ Total First- Year Cost - R5500/R11000
 ## Referencing 
 - Deogratias,P., 2026.Building Your Website's HTML: A Beginner's Guide, WEDE5020 Web Development.Lecture Slides, IIE
 - Deogratias,P.2026. Styling Your Website with CSS: A Beginner's Guide(No CSS Variables), WEDE5020 Web Development. Lecture Slides,IIE
+- Deogratias,P.2026 .Adding JavaScript to Your Website : A Beginner's Guide(Catch-Up Edition), WEDE5020 Web Development. Lecture Slides, IIE 
