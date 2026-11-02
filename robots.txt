@@ -1,4 +1,4 @@
-# NextGen IT Solutions -robots.txt 
+#robots.txt 
 
 # "Allow: /" means every page may be crawled.
 
