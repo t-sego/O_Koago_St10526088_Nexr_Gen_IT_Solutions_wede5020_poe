@@ -1,0 +1,9 @@
+# NextGen IT Solutions -robots.txt 
+
+# "Allow: /" means every page may be crawled.
+
+User-agent: *
+Allow: /
+
+
+Sitemap:https://github.com/t-sego/O_Koago_St10526088_Nexr_Gen_IT_Solutions_wede5020_poe/sitemap.xml
