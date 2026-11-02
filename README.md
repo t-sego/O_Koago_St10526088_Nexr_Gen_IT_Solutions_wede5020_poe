@@ -14,7 +14,7 @@
 | Group | Year1 G 04
 | Module name| Web Development (Introduction) |
 | Module Code | WEDE5020|
-|Lecturer| | Deogratias Phiri |
+|Lecturer| |Deogratias Phir |
 
 ---
  
