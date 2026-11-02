@@ -6,4 +6,4 @@ User-agent: *
 Allow: /
 
 
-Sitemap:https://github.com/t-sego/O_Koago_St10526088_Nexr_Gen_IT_Solutions_wede5020_poe/sitemap.xml
+Sitemap:https://magenta-praline-26db10.netlify.app//sitemap.xml
