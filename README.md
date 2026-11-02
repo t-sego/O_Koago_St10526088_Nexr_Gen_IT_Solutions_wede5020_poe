@@ -62,9 +62,9 @@ Complete 95% of projects on time and within budget
 Adding external CSS style and mobile responsiveness | 16 / 09/2026 | Ongoing|
 |Part 1 | Sumit Proposal and Semantic HTML structure| 14/08/2026 | Complete |website planning and structure| 14/08/2026|
 |Part 2| Submit CSS and Responsiveness | 18/ 09/2026 | Complete | Styling the website|
-Adding JavaScript and interactivity | TBC | Planned | 
-|Part 3 | Final testing of the website | TBC |02/11/2026 | 
-|Final Submission|Complete project delivery| 01/10/2026|
+Adding JavaScript and interactivity | Complete | Planned | 
+|Part 3 | Final testing of the website | Complete |02/11/2026 | 
+|Final Submission|Complete project delivery| 02/11/2026|
 
 ## Design and User Experience 
 
@@ -172,6 +172,7 @@ Total First- Year Cost - R5500/R11000
 
 
 ## Referencing 
-- Deogratias,P., 2026.Building Your Website's HTML: A Beginner's Guide, WEDE5020 Web Development.Lecture Slides, IIE
-- Deogratias,P.2026. Styling Your Website with CSS: A Beginner's Guide(No CSS Variables), WEDE5020 Web Development. Lecture Slides,IIE
-- Deogratias,P.2026 .Adding JavaScript to Your Website : A Beginner's Guide(Catch-Up Edition), WEDE5020 Web Development. Lecture Slides, IIE 
+- w3schools,nd.HTML Tutorial.[online] Available at: https://www.w3schools.com/html/default.asp (Accessed 14 August 2026)
+- w3schools,nd.CSS Tutorial.[online] Available at: https://www.w3schools.com/css/default.asp(Accessed 18 October 2026)
+- w3schools,nd.Javascript Tutorial.[online] Available at: https://www.w3schools.com/js/default.asp(Accessed 2 November 2026)
+
